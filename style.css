@@ -23,7 +23,7 @@ h2{
   text-align: center;
   letter-spacing: 1px;
   margin: 0;
-}
+} 
 
  
   background: white;
@@ -88,14 +88,9 @@ a:hover {
 .history {
   
   font-size: 28px;
-  margin: 20px 25px 20px 25px;
-  color: #0000cc;
-  border-color: black;
-  
-  
+  padding: 20px 30px 20px 30px;
+  color: #0000cc;  
 }
-
-
 
  #wrapper {
   position: absolute;
@@ -192,14 +187,14 @@ position: absolute;
 }
 .setitle {
   padding-top: 100px;
-  font-size: 30px;
+  font-size: 35px;
   text-align: center;
  
 }
 .se {
   line-height: 100%;
   text-align: center;
-  font-size: 20px;
+  font-size: 25px;
 
 }
   
@@ -208,10 +203,10 @@ position: absolute;
   color: #0000cc;
   line-height: 100%;
   text-align: center;
-  font-size: 20px;
+  font-size: 25px;
 }
  .folks {
-  font-size: 40px;
+  font-size: 35px;
   color: saddlebrown;
   text-align: center;
 }
@@ -245,7 +240,7 @@ select {
   padding: 15px;
   width: 100%;
   background-color: #e8eeef;
-  color: #8a97a0;
+  color: #000;
   box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
   margin-bottom: 30px;
 }
@@ -331,19 +326,14 @@ h4 {
   margin-bottom: 50px;
 
 }
-h6 {
-  font-size: 18px;
-  
-  margin-left: 100px;
 
-  position: absolute;
-}
 .contact {
-  font-size: 30px;
-  line-height: 100%;
+  font-size: 35px;
+  bottom: 50px;
   position: relative;
   margin-left: 20px;
-  margin-top: 90px;
+  text-align: center;
+
 
  }
 .reminder {
@@ -387,3 +377,18 @@ ul {
   list-style: none
     text-decoration: none;
 }
+
+.study {
+   display: block;
+    margin: auto;
+    width: 20%;
+   list-style: none;
+   text-decoration: none;
+  position: absolute;
+  left: 0;
+  top: 40;
+}
+* {
+  font-family: 'PT Serif', serif;
+}
+  
